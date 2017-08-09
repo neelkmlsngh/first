@@ -1,0 +1,63 @@
+/* to change the background color of head and to take the head in the middle of container block 
+and to take the text in center and text shadow will make a shadow of white color  and it will style the text written in head.*/
+body{
+	background-color: #980E0E;
+}
+.head{
+	background-color: gray;
+	line-height: 90px;
+	text-align: center;
+	text-shadow: 5px 10px 10px white;
+	font-family: monospace;
+}
+/* it will align the text written in list in one line with a padding of 5px */
+li{
+	display: inline;
+	padding: 5px;
+}
+/* it will make a green border around the navigation */
+a{
+	border: 15px solid green;
+	text-decoration: none;
+	color: white;
+}
+/* when we will take the mouse to the navigation then the underline will come automatically under the navigation */
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+/* it will maintain a height of 350px  and give a background image on temp class*/
+.temp{
+	line-height: 350px;
+	background-image: url(https://homepilotadventures.files.wordpress.com/2017/03/phuket-small-islands.jpg); 
+}
+/* it will increase the font size */
+.your{
+	font-size: 50px;
+}
+.searchcity{
+	line-height: 200px;
+	background-size: 100%;
+	background-color: #504d4d;
+}
+.headinglondon{
+	background-color: gray;
+}
+
+.newyork{
+	background-color: gray;
+	background-size: 500px;
+}
+.newyorkimage{
+	height: 300px;
+	width: 300px;
+}
+.parisimage{
+	height: 300px;
+	width: 300px;
+}
+.londonimage{
+	height: 300px;
+	width: 300px;
+}
+
